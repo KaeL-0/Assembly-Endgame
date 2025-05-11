@@ -153,7 +153,7 @@ export default function App() {
             <section className='word-container'>{currentWordElements}</section>
             <section className='keyboard-container' onClick={saveGuessedLetters}>{keyboardElements}</section>
             { isGameOver && <button className="new-game" onClick={startNewGame}>New Game</button>}
-            { isGameWon && <Confetti width={width} height={height}/>}
+            { isGameWon && <Confetti width={width} height={height} recycle={false} numberOfPieces={1000}/>}
         </main>
     )
 }
