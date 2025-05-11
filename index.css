@@ -76,19 +76,20 @@ header {
 
 .farewell {
     visibility: visible;
+    height: 78.4px;
     background-color: #7A5EA7;
     display: flex;
     justify-content: center;
 }
 
-.status-farewell > p {
+.farewell > p {
     margin: 0;
     font-size: 1.1rem;
     font-style: italic;
     font-weight: 400;
 }
 
-.status-farewell > p::after {
+.farewell > p::after {
     content: "🫡";
     font-style: normal;
 }
@@ -249,6 +250,10 @@ button:active{
     .languages {
         max-width: 100%;
         padding: 0 10px;
+    }
+
+    .farewell {
+        height: 71.2px;
     }
 
     .word-container {
