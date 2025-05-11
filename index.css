@@ -212,3 +212,68 @@ button:active{
     border: 0;
 }
 
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    header,
+    .status-page {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .instruction {
+        font-size: 0.9rem;
+    }
+
+    .status-page > h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .status-page > p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .languages {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .word-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .word-container > .word {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    .keyboard-container {
+        max-width: 100%;
+        padding: 0 5px;
+    }
+
+    .keyboard-container > .keyboard {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    button.new-game {
+        width: 100%;
+        max-width: 225px;
+    }
+}
