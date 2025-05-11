@@ -215,7 +215,7 @@ button:active{
 @media (max-width: 768px) {
     body {
         padding: 15px;
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
     main {

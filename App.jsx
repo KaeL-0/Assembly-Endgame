@@ -20,7 +20,7 @@ export default function App() {
     const {width, height} = useWindowSize()
 
     //State values
-    const [currentWord, setCurrentWord] = useState('react')
+    const [currentWord, setCurrentWord] = useState(()=> getRandomWord())
     const [guessedLetters, setGuessedLetters] = useState([])
 
     //Derive values
